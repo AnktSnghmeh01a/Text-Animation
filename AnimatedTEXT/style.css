@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html,body{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  
+}
+
+.main-p{
+  width: 100%;
+  height: 100vh;
+
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  background-color: #0f0707c5;
+  position: relative;
+}
+.center-p{
+ height: 100vh;
+ /* background-color: #050505; */
+  background-image: url('https://balenciaga.dam.kering.com/m/5712d304bd97ded7/Large-HP_DK_BAG_CLOSET_15_2600x1300_2x1.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+.top-p{
+  height: 50vh;
+  width: 100%;
+  background-color: #ebe9e9;
+  position: absolute;
+  top: 0%;
+  z-index: 5;
+  overflow: hidden;
+  
+}
+
+
+.bottom-p{
+  height: 50vh;
+  width: 100%;
+  background-color: #ebe9e9;
+  position: absolute;
+  bottom: 0%;
+  overflow: hidden;
+ }
+ .main h1{
+   font-size: 15vw;
+   text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -8px;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  }
+  .top-p h1{
+  top: 100%;
+  }
+  .bottom-p h1{
+
+    top: 0%;
+  }
