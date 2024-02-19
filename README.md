@@ -1,2 +1,2 @@
 # Text-Animation
-Text Animation using html,css, and javascript and gsap
+Text Animation using html,css,  and using gsap
